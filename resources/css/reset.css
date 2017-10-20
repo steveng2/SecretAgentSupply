@@ -1,0 +1,195 @@
+
+/* Tablet 1024 */
+@media only screen and (max-width: 1024px){
+  #container {
+    width: 100%;
+    height: auto;
+  }
+  .locations {
+    width: 35%;
+  }
+  nav, ul, li {
+    width: 100%;
+    display: block;
+}
+header {
+  background-image: url('../images/moto.jpeg');
+  height: 25rem;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.boxholder {
+  /*background-color: #000;*/
+  display: flex;
+  margin-top: 3rem;
+  /*justify-content: space-between;*/
+}
+  .hours{
+    width: 35%;
+  }
+  .desciption-text {
+    background-color: black;
+    /*margin-top: 9rem;
+    margin-left: 10rem;*/
+    position: relative;
+    top:   -30px;
+    left: -10rem;
+    width:  20rem;
+    height: 10rem;
+    /*padding-left:  3rem;
+    padding-right: 3rem;*/
+  }
+
+.pen-box {
+    width: 47%;
+}
+.watch-box  {
+    width: 47%;
+}
+
+.glasses-box.style-boxes, img.product-image, .description {
+    display: none;
+}
+h1 {
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+}
+h4 {
+    font-family: Helvetica;
+    font-size: 0.77rem;
+    font-weight: bold;
+}
+
+#secondholder {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  /*padding-top: 1rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;*/
+}
+.titlelocation {
+  background-color: black;
+  color: white;
+  width:  100%;
+}
+/*.hours{
+  width: 35%;
+}*/
+.titlehours {
+  background-color: black;
+  color: white;
+  width: 90%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 0;
+}
+
+footer {
+  width: 100%;
+  height: 5rem;
+  text-align: left;
+  color: white;
+  background-color: black;
+}
+}
+
+/* moblie 480*/
+@media only screen and (max-width: 480px){
+
+
+  header {
+    background-image: url('../images/moto.jpeg');
+    height: 15rem;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .style-sportbike {
+    font-size: 1rem;
+  }
+  .pen-box {
+      width: 90%;
+  }
+  .watch-box  {
+      width: 47%;
+      display: none;
+  }
+ .desciption-text {
+    background-color: black;
+    /*margin-top: 9rem;
+    margin-left: 10rem;*/
+    position: relative;
+    top:   -7rem;
+    left: -10rem;
+    width:  20rem;
+    height: 7rem;
+    /*padding-left:  3rem;
+    padding-right: 3rem;*/
+  }
+
+  .boxholder {
+    /*background-color: #000;*/
+    display: flex;
+    margin-top: 1rem;
+    /*justify-content: space-between;*/
+  }
+  h1 {
+      font-family: Helvetica;
+      font-size: 1rem;
+      font-weight: bold;
+  }
+  h4 {
+      font-family: Helvetica;
+      padding-top: 1rem;
+      font-family: Helvetica;
+      font-size: 0.77rem;
+      font-weight: bold;
+}
+.glasses-box.style-boxes, img.product-image, .description, img.watch-box.style-boxes, {
+    display: none;
+}
+
+#secondholder {
+  display: block;
+  width: 90%;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.titlelocation {
+  background-color: black;
+  color: white;
+  width:  90%%;
+}
+.locations {
+  width: 90%;
+}
+.hours{
+  width: %;
+}
+
+.titlehours {
+  background-color: black;
+  color: white;
+  width: 90%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 0;
+}
+
+#footer-container footer{
+ /*background-color: red; /*for debugging*/
+ background-color: white;
+ color: white;
+ height: auto;
+ text-align: center;
+ height: 5rem;
+
+}
+}
